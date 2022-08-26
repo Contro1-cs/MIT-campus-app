@@ -17,9 +17,9 @@ class _NavBarState extends State<NavBar> {
   var currentIndex = 0;
 
   final List pages = [
-    const Clubs(),
+    const ClubsPage(),
     const Maps(),
-    const Faculty(),
+    const FacultyPage(),
   ];
 
   @override
